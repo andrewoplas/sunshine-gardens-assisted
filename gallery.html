@@ -82,6 +82,11 @@
     <link href="css/sunshine-styles.css" rel="stylesheet" />
     <link href="css/responsive-styles.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="js/style_test.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
   </head>
   <!-- NAVBAR
 ================================================== -->
@@ -168,157 +173,155 @@
 		<div class="clear"></div>
       </div> -->
 
-      <section class="gallery">
-        <div class="container">
-          <div class="title">
-            <h1>Gallery</h1>
-          </div>
-          <div class="gallery-items">
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-6960.jpg"
-                ><img alt="img 6960" src="images/IMG-6960-sm.jpg"
-              /></a>
-              <div class="caption">
-                1
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-6308.jpg"
-                ><img alt="img 6308" src="images/IMG-6308-sm.jpg"
-              /></a>
-              <div class="caption">
-                2
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-6825.JPG"
-                ><img alt="img 6825" src="images/IMG-6825-sm.JPG"
-              /></a>
-              <div class="caption">
-                3
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-107.jpg"
-                ><img alt="img 107" src="images/IMG-107-sm.jpg"
-              /></a>
-              <div class="caption">
-                4
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-100.jpeg"
-                ><img alt="img 100" src="images/IMG-100-sm.jpeg"
-              /></a>
-              <div class="caption">
-                5
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-101.jpeg"
-                ><img alt="img 101" src="images/IMG-101-sm.jpeg"
-              /></a>
-              <div class="caption">
-                6
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-102.jpeg"
-                ><img alt="img 102" src="images/IMG-102-sm.jpeg"
-              /></a>
-              <div class="caption">
-                7
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/14937439.JPG"
-                ><img alt="14937439" src="images/14937439-sm.JPG"
-              /></a>
-              <div class="caption">
-                8
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-7972.JPG"
-                ><img alt="img 7972" src="images/IMG-7972-sm.JPG"
-              /></a>
-              <div class="caption">
-                9
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-108.jpg"
-                ><img alt="img 108" src="images/IMG-108-sm.jpg"
-              /></a>
-              <div class="caption">
-                10
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-106.jpg"
-                ><img alt="img 106" src="images/IMG-106-sm.jpg"
-              /></a>
-              <div class="caption">
-                11
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-110.jpeg"
-                ><img alt="img 110" src="images/IMG-110-sm.jpeg"
-              /></a>
-              <div class="caption">
-                12
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-109.jpg"
-                ><img alt="img 109" src="images/IMG-109-sm.jpg"
-              /></a>
-              <div class="caption">
-                13
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-0123.JPG"
-                ><img alt="img 0123" src="images/IMG-0123-sm.JPG"
-              /></a>
-              <div class="caption">
-                14
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-103.jpg"
-                ><img alt="img 103" src="images/IMG-103-sm.jpg"
-              /></a>
-              <div class="caption">
-                15
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-105.jpg"
-                ><img alt="img 105" src="images/IMG-105-sm.jpg"
-              /></a>
-              <div class="caption">
-                16
-              </div>
-            </div>
-            <div class="item">
-              <a class="fancybox" rel="group" href="images/IMG-104.jpg"
-                ><img alt="img 104" src="images/IMG-104-sm.jpg"
-              /></a>
-              <div class="caption">
-                17
-              </div>
+      <div class="gallery">
+        <div class="title">
+          <h1>Gallery</h1>
+        </div>
+
+        <div class="gallery-items">
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-6960.jpg"
+              ><img alt="img 6960" src="images/IMG-6960-sm.jpg"
+            /></a>
+            <div class="caption">
+              1
             </div>
           </div>
-          <div class="pagination">
-            <div class="prev">Prev</div>
-            <div class="page">Page <span class="page-num"></span></div>
-            <div class="next">Next</div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-6308.jpg"
+              ><img alt="img 6308" src="images/IMG-6308-sm.jpg"
+            /></a>
+            <div class="caption">
+              2
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-6825.JPG"
+              ><img alt="img 6825" src="images/IMG-6825-sm.JPG"
+            /></a>
+            <div class="caption">
+              3
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-107.jpg"
+              ><img alt="img 107" src="images/IMG-107-sm.jpg"
+            /></a>
+            <div class="caption">
+              4
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-100.jpeg"
+              ><img alt="img 100" src="images/IMG-100-sm.jpeg"
+            /></a>
+            <div class="caption">
+              5
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-101.jpeg"
+              ><img alt="img 101" src="images/IMG-101-sm.jpeg"
+            /></a>
+            <div class="caption">
+              6
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-102.jpeg"
+              ><img alt="img 102" src="images/IMG-102-sm.jpeg"
+            /></a>
+            <div class="caption">
+              7
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/14937439.JPG"
+              ><img alt="14937439" src="images/14937439-sm.JPG"
+            /></a>
+            <div class="caption">
+              8
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-7972.JPG"
+              ><img alt="img 7972" src="images/IMG-7972-sm.JPG"
+            /></a>
+            <div class="caption">
+              9
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-108.jpg"
+              ><img alt="img 108" src="images/IMG-108-sm.jpg"
+            /></a>
+            <div class="caption">
+              10
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-106.jpg"
+              ><img alt="img 106" src="images/IMG-106-sm.jpg"
+            /></a>
+            <div class="caption">
+              11
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-110.jpeg"
+              ><img alt="img 110" src="images/IMG-110-sm.jpeg"
+            /></a>
+            <div class="caption">
+              12
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-109.jpg"
+              ><img alt="img 109" src="images/IMG-109-sm.jpg"
+            /></a>
+            <div class="caption">
+              13
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-0123.JPG"
+              ><img alt="img 0123" src="images/IMG-0123-sm.JPG"
+            /></a>
+            <div class="caption">
+              14
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-103.jpg"
+              ><img alt="img 103" src="images/IMG-103-sm.jpg"
+            /></a>
+            <div class="caption">
+              15
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-105.jpg"
+              ><img alt="img 105" src="images/IMG-105-sm.jpg"
+            /></a>
+            <div class="caption">
+              16
+            </div>
+          </div>
+          <div class="item">
+            <a class="fancybox" rel="group" href="images/IMG-104.jpg"
+              ><img alt="img 104" src="images/IMG-104-sm.jpg"
+            /></a>
+            <div class="caption">
+              17
+            </div>
           </div>
         </div>
-      </section>
-      <script src="js/script_test.js"></script>
+        <div class="pagination">
+          <div id="prev-arrow" class="prev">Prev</div>
+          <!-- <div class="page">Page <span class="page-num"></span></div> -->
+          <div id="next-arrow" class="next">Next</div>
+        </div>
+      </div>
       <!-- /END THE FEATURETTES -->
 
       <!-- start: contact section -->
@@ -379,6 +382,12 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
+    <!-- Slick -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
     <!-- Add fancyBox -->
     <link rel="stylesheet" href="dist/css/jquery.fancybox.css" type="text/css" media="screen" />
     <script type="text/javascript" src="dist/js/jquery.fancybox.js"></script>
@@ -391,6 +400,7 @@
     />
     <script type="text/javascript" src="dist/js/jquery.fancybox-thumbs.js"></script>
 
+    <script src="js/script_test.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         $('.fancybox').fancybox();

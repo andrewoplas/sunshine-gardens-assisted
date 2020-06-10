@@ -91,12 +91,6 @@ body {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .marketing .marketing-item {
-    margin-bottom: 15px;
-  }
-}
-
 .marketing h2 {
   font-weight: 800;
   font-family: 'Open Sans', sans-serif;

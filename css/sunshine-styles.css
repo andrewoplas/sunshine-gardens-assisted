@@ -154,10 +154,6 @@ h2.featurette-heading {
   padding-bottom: 20px;
 }
 
-.contactSec .contactSec-item:not(:last-child) {
-  margin-bottom: 15px;
-}
-
 @media (min-width: 769px) {
   .contactSec .contactSec-item {
     min-height: 200px;
@@ -232,4 +228,5 @@ footer p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
