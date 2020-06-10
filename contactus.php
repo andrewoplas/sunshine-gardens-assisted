@@ -143,7 +143,8 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel/carousel.css" rel="stylesheet">
-	<link href="css/sunshine-styles.css" rel="stylesheet">
+  <link href="css/sunshine-styles.css" rel="stylesheet">
+  <link href="css/responsive-styles.css" rel="stylesheet" />
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -179,8 +180,6 @@
       </div>
     </div>
 
-
-    
 	<br /><br /><br /><br />
 	
 <?php 
@@ -332,7 +331,6 @@ if(isset($_POST['submit'])){
 		</div>
       </footer>
 	  </div>
-
 
 
     <!-- Bootstrap core JavaScript

@@ -1,3 +1,9 @@
+/*
+  Author: Andrew Oplas
+  Description: This CSS file contains all the styles made to make the site responsive.
+*/
+
+/* Purpose: Collapse the Menu on 1200px width */
 @media (max-width: 1200px) {
   .navbar-header {
     float: none;
@@ -86,6 +92,7 @@
   }
 }
 
+/* Purpose: Update width of carousel images */
 @media (max-width: 1099px) {
   .carousel .item {
     height: 400px;
@@ -104,12 +111,14 @@
   }
 }
 
+/* Purpose: Update width of carousel images */
 @media (max-width: 768px) {
   .carousel .item {
     height: 300px;
   }
 }
 
+/* Purpose: Update width of carousel images */
 @media (max-width: 600px) {
   .carousel .item {
     height: 200px;
@@ -126,6 +135,7 @@
   }
 }
 
+/* Purpose: Add margin on three-column blocks */
 @media (max-width: 768px) {
   .margin-bottom {
     margin-bottom: 15px;
