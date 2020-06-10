@@ -271,10 +271,15 @@
 
       <!-- FOOTER -->
       <div class="container padLR0">
-	  <footer>
-        <p>Copyright &copy; 2020 Sunshine Gardens</p>
+      <footer>
+        <div style="overflow: hidden;" class="footer">
+          <p>Copyright &copy; 2020 Sunshine Gardens</p>
+          <p>
+            <a id="sitemap" href="sitemap.html"><b>Sitemap</b></a>
+          </p>
+        </div>
       </footer>
-	  </div>
+    </div>
 
 
 

@@ -287,25 +287,37 @@ if(isset($_POST['submit'])){
       <!-- /END THE FEATURETTES -->
 	  
 	  <!-- start: contact section -->
-	  	<div class="row contactSec">
-        <div class="col-lg-4 bgGrey">
+    <div class="row contactSec">
+        <div class="col-12 col-sm-4 contactSec-item bgGrey">
           <h2>Our Initiatives</h2>
           <p>
-		  	Monthly Wellness Program<br />
-			Religious Services<br />
-			Laundry Service
-		  </p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 bgGrey borderLR">
+            Monthly Wellness Program<br />
+            Religious Services<br />
+            Laundry Service
+          </p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-12 col-sm-4 contactSec-item bgGrey borderLR">
           <h2>Social Presence</h2>
-          <a href="https://www.facebook.com/SunshineGardensMarion/" target="_blank"><img alt="See more of Sunshine Gardens on Facebook" src="images/icon-fb.gif" class="mr15"></a>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 bgGrey">
+          <a href="https://www.facebook.com/SunshineGardensMarion/" target="_blank"
+            ><img
+              alt="See more of Sunshine Gardens on Facebook"
+              src="images/icon-fb.gif"
+              class="mr15"
+          /></a>
+        </div>
+        <!-- /.col-lg-4 -->
+        <!-- 		<div class="col-lg-4 bgGrey borderLR">
+          <h2>Sitemap</h2>
+          <ul><li class="active"><p><a class="btn btnLearnMore" href="sitemap.html" role="button">Sitemap</a></p></li></ul>
+        </div> -->
+        <div class="col-12 col-sm-4 contactSec-item bgGrey">
           <h2>Contact Us</h2>
-          <p>Sunshine Gardens<br/>422 Comfort Drive,<br />Marion, IL 62959.<br />618-364-0482</p>
-        </div><!-- /.col-lg-4 -->
-		<div class="clear"></div>
-	  <!-- end: contact section -->
+          <p>Sunshine Gardens<br />422 Comfort Drive,<br />Marion, IL 62959.<br />618-364-0482</p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="clear"></div>
+        <!-- end: contact section -->
 		</div>     
 		
 		<!-- /.container -->

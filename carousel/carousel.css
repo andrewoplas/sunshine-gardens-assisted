@@ -7,7 +7,6 @@ body {
   color: #5a5a5a;
 }
 
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -18,7 +17,7 @@ body {
   right: 0;
   left: 0;
   z-index: 20;
-  background-color:#5b2c79;
+  background-color: #5b2c79;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -34,13 +33,12 @@ body {
   width: auto;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
-  margin-top:78px;
+  margin-top: 78px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -49,43 +47,68 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-	margin:auto;
-	background-color: #777;
-	height:680px;
+  margin: auto;
+  background-color: #777;
+  height: 680px;
 }
-.carousel-inner > .item > img {
+.carousel-inner > .item > div {
   position: absolute;
   top: 0;
   left: 0;
-  width:100%;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .marketing {
-	background-color:#ffffff;
+  background-color: #ffffff;
 }
 
-.marketing .col-lg-4 {
-  text-align: center;
-  padding-top:20px;
+@media (min-width: 769px) {
+  .marketing .marketing-row {
+    display: flex;
+  }
 }
+
+.marketing .marketing-item {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  flex: 1;
+}
+
+.marketing .marketing-item .learn-more-container {
+  position: absolute;
+  margin: 0;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .marketing .marketing-item {
+    margin-bottom: 15px;
+  }
+}
+
 .marketing h2 {
   font-weight: 800;
   font-family: 'Open Sans', sans-serif;
-	color:#2c3530;
-	text-transform:uppercase;
-	font-size:18px;
+  color: #2c3530;
+  text-transform: uppercase;
+  font-size: 18px;
 }
-.marketing .col-lg-4 p {
+.marketing .marketing-item p {
   margin-right: 10px;
   margin-left: 10px;
-  font-weight:400;
+  font-weight: 400;
 }
-
 
 /* Featurettes
 ------------------------- */
@@ -100,7 +123,6 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

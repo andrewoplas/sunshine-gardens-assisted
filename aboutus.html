@@ -1,66 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sunshine Gardens is one of the largest independently owned assisted living facilities in Southern Illinois offering full spectrum of services at an affordable fee.">
-    <meta name="author" content="">
-  <!--  <link rel="icon" href="../../favicon.ico"> -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sunshine Gardens is one of the largest independently owned assisted living facilities in Southern Illinois offering full spectrum of services at an affordable fee."
+    />
+    <meta name="author" content="" />
+    <!--  <link rel="icon" href="../../favicon.ico"> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167344352-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167344352-1"></script>
 
-		<script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-		  window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
- 		 function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-		  gtag('js', new Date());
+      gtag('config', 'UA-167344352-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Ads: 667373387 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-667373387"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
+      gtag('config', 'AW-667373387');
+    </script>
+    <!--------End of Script --------->
 
-
- 		 gtag('config', 'UA-167344352-1');
-
-		</script>
-	  <!-- Global site tag (gtag.js) - Google Ads: 667373387 -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-667373387"></script>
-			<script>
-				  window.dataLayer = window.dataLayer || [];
-				  function gtag(){dataLayer.push(arguments);}
-				  gtag('js', new Date());
-
-  				gtag('config', 'AW-667373387');
-			</script>
-<!--------End of Script --------->
-	 
-<!--------Event script --------->	  
-	  <script>
-  gtag('event', 'page_view', {
-    'send_to': 'AW-667373387',
-    'value': 'replace with value',
-    'items': [{
-      'id': 'replace with value',
-      'location_id': 'replace with value',
-      'google_business_vertical': 'real_estate'
-    }, {
-      'id': 'replace with value',
-      'location_id': 'replace with value',
-      'google_business_vertical': 'custom'
-    }]
-  });
-</script>
-<!-- End of script --> 	  
+    <!--------Event script --------->
+    <script>
+      gtag('event', 'page_view', {
+        send_to: 'AW-667373387',
+        value: 'replace with value',
+        items: [
+          {
+            id: 'replace with value',
+            location_id: 'replace with value',
+            google_business_vertical: 'real_estate',
+          },
+          {
+            id: 'replace with value',
+            location_id: 'replace with value',
+            google_business_vertical: 'custom',
+          },
+        ],
+      });
+    </script>
+    <!-- End of script -->
     <title>Sunshine Gardens Assisted Living :: About Us</title>
-	<style> 
-	  #sitemap {
-	  color:#000000;
-	  }
-	</style>
+    <style>
+      #sitemap {
+        color: #000000;
+      }
+    </style>
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.css" rel="stylesheet" />
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
@@ -72,35 +78,46 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="carousel/carousel.css" rel="stylesheet">
-	<link href="css/sunshine-styles.css" rel="stylesheet">
+    <link href="carousel/carousel.css" rel="stylesheet" />
+    <link href="css/sunshine-styles.css" rel="stylesheet" />
+    <link href="css/responsive-styles.css" rel="stylesheet" />
   </head>
-<!-- NAVBAR
+  <!-- NAVBAR
 ================================================== -->
   <body>
     <div class="navbar-wrapper">
       <div class="container">
-
         <nav class="navbar navbar-static-top">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#navbar"
+                aria-expanded="false"
+                aria-controls="navbar"
+              >
+                <span class="menu">Menu</span>
+                <div>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </div>
               </button>
-              <a class="navbar-brand" href="index.html"><img alt="sunshine logo" src="images/logo-sunshine.jpg"></a>
+              <a class="navbar-brand" href="index.html"
+                ><img alt="sunshine logo" src="images/logo-sunshine.jpg"
+              /></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="amenities.html">Amenities</a></li>
                 <li><a href="services.html">Services</a></li>
-				<li class="active"><a href="aboutus.html">About Us</a></li>
+                <li class="active"><a href="aboutus.html">About Us</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="events.html">Events</a></li>
-                <li><a href="contactus.php">Contact</a></li> 
+                <li><a href="contactus.php">Contact</a></li>
 
                 <!--<li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -118,89 +135,112 @@
             </div>
           </div>
         </nav>
-
       </div>
     </div>
 
-
-    
-	<br /><br /><br /><br />
-	
-
+    <br /><br /><br /><br />
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing innerPage">
-
-      
-
-
       <!-- START THE FEATURETTES -->
 
       <div class="row pb40 pad-30">
         <div class="col-md-12">
           <h1>About Us</h1>
-          <p>Sunshine Gardens is one of the largest independently owned assisted living facilities in Southern Illinois offering full spectrum of services at an affordable fee.</p>
-		  <p>We recognize that each individual  has his or her own personal needs and we focus on them and develop individualized care program based on the individual needs of each of our residents.</p>
-		  <p>Our residents are provided with a balance of independence along with the appropriate level of care and services they require within a very supportive environment. This means that our residents get to choose what they want to do, when they want to do it and to receive daily assistance only as needed.</p>
-		  <h2>Stewardship </h2>
-		  <p>We take pride in humbly serving our residents.  </p>
-<h2>Independence </h2><p>We empower residents to maintain their independence, as well as have a choice and voice within their community.</p>
-<h2>Privacy</h2><p>We value each resident’s right to their personal space and privacy in their own home.</p>
-		  <h2>Respect</h2>
-		  <p>We respect all individuals and value their diversity.</p>
-		  <h2>Teamwork </h2>
-		  <p>We will work as a team and value all contributions to the betterment of the community.</p>
-		  <h2>Ethical </h2>
-		  <p> We will be honest, dependable and act with integrity as we make every decision based on what is best for the community as a whole.</p>
+          <p>
+            Sunshine Gardens is one of the largest independently owned assisted living facilities in
+            Southern Illinois offering full spectrum of services at an affordable fee.
+          </p>
+          <p>
+            We recognize that each individual has his or her own personal needs and we focus on them
+            and develop individualized care program based on the individual needs of each of our
+            residents.
+          </p>
+          <p>
+            Our residents are provided with a balance of independence along with the appropriate
+            level of care and services they require within a very supportive environment. This means
+            that our residents get to choose what they want to do, when they want to do it and to
+            receive daily assistance only as needed.
+          </p>
+          <h2>Stewardship</h2>
+          <p>We take pride in humbly serving our residents.</p>
+          <h2>Independence</h2>
+          <p>
+            We empower residents to maintain their independence, as well as have a choice and voice
+            within their community.
+          </p>
+          <h2>Privacy</h2>
+          <p>
+            We value each resident’s right to their personal space and privacy in their own home.
+          </p>
+          <h2>Respect</h2>
+          <p>We respect all individuals and value their diversity.</p>
+          <h2>Teamwork</h2>
+          <p>
+            We will work as a team and value all contributions to the betterment of the community.
+          </p>
+          <h2>Ethical</h2>
+          <p>
+            We will be honest, dependable and act with integrity as we make every decision based on
+            what is best for the community as a whole.
+          </p>
         </div>
-		<div class="clear"></div>
+        <div class="clear"></div>
       </div>
 
       <!-- /END THE FEATURETTES -->
-	  
-	  <!-- start: contact section -->
-	  	<div class="row contactSec">
-        <div class="col-lg-4 bgGrey">
+
+      <!-- start: contact section -->
+      <div class="row contactSec">
+        <div class="col-12 col-sm-4 contactSec-item bgGrey">
           <h2>Our Initiatives</h2>
           <p>
-		  	Monthly Wellness Program<br />
-			Religious Services<br />
-			Laundry Service
-		  </p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 bgGrey borderLR">
+            Monthly Wellness Program<br />
+            Religious Services<br />
+            Laundry Service
+          </p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-12 col-sm-4 contactSec-item bgGrey borderLR">
           <h2>Social Presence</h2>
-          <a href="https://www.facebook.com/SunshineGardensMarion/" ><img alt="See more of Sunshine Gardens on Facebook" src="images/icon-fb.gif" class="mr15"></a>
-        </div><!-- /.col-lg-4 -->
-		<!-- <div class="col-lg-4 bgGrey borderLR">
+          <a href="https://www.facebook.com/SunshineGardensMarion/" target="_blank"
+            ><img
+              alt="See more of Sunshine Gardens on Facebook"
+              src="images/icon-fb.gif"
+              class="mr15"
+          /></a>
+        </div>
+        <!-- /.col-lg-4 -->
+        <!-- 		<div class="col-lg-4 bgGrey borderLR">
           <h2>Sitemap</h2>
           <ul><li class="active"><p><a class="btn btnLearnMore" href="sitemap.html" role="button">Sitemap</a></p></li></ul>
         </div> -->
-        <div class="col-lg-4 bgGrey">
+        <div class="col-12 col-sm-4 contactSec-item bgGrey">
           <h2>Contact Us</h2>
-          <p>Sunshine Gardens<br/>422 Comfort Drive,<br />Marion, IL 62959.<br />618-364-0482</p>
-        </div><!-- /.col-lg-4 -->
-		<div class="clear"></div>
-	  <!-- end: contact section -->
-		</div>   
-		
-		<!-- /.container -->
-</div>
+          <p>Sunshine Gardens<br />422 Comfort Drive,<br />Marion, IL 62959.<br />618-364-0482</p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="clear"></div>
+        <!-- end: contact section -->
+      </div>
 
-      <!-- FOOTER -->
-      <div class="container padLR0">
-	  <footer>
-	  <div style="overflow: hidden;">
-        <p style="float:left;">Copyright &copy; 2020 Sunshine Gardens</p>
-		<p style="float:right;color:red;" align="right"><a id="sitemap" href="sitemap.html" ><b>Sitemap</b></a></p>
-		</div>
+      <!-- /.container -->
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container padLR0">
+      <footer>
+        <div style="overflow: hidden;" class="footer">
+          <p>Copyright &copy; 2020 Sunshine Gardens</p>
+          <p>
+            <a id="sitemap" href="sitemap.html"><b>Sitemap</b></a>
+          </p>
+        </div>
       </footer>
-	  </div>
-
-
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
