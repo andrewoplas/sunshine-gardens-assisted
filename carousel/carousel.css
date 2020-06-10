@@ -61,6 +61,10 @@ body {
   background-size: cover;
 }
 
+.carousel-indicators {
+  bottom: 260px;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
